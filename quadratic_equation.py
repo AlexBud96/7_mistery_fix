@@ -11,3 +11,11 @@ def get_roots(a, b, c):
         return root1, None
     else:
         return root1, root2
+
+
+
+if __name__ == '__main__':
+    a = float(input('Коэффициент a:'))
+    b = float(input('Коэффициент b:'))
+    c = float(input('Коэффициент c:'))
+    print(get_roots(a, b, c))
